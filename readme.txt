@@ -4,11 +4,11 @@ Donate link: http://gstcalculator.ca
 Tags: Canada, Canada, GST calculator, calculator, sidebar, widget, plugin, financial, sale tax, GST, PST
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 0.1.0
+Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Add a free simple customizable Canada income tax calculator to your web site. 
+Add a free simple customizable Canadian GST calculator to your web site. 
 
 == Description ==
 
