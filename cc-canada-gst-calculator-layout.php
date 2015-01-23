@@ -6,36 +6,36 @@ function load_cc_canada_gst_calc($id, $title, $show_url = 0, $bg_color, $border_
 ?>
 
 
-<div class="CCH-Widget CCH-Widget-<?php echo $id; ?>">
-	 	<div class="CCH-WidgetTitle CCH-WidgetTitle-<?php echo $id; ?>"><?php echo $title; ?></div>		   
-        <div class="cch-rowdiv">
-			 <div class="cch-leftdiv">
+<div class="CCG-Widget CCG-Widget-<?php echo $id; ?>">
+	 	<div class="CCG-WidgetTitle CCG-WidgetTitle-<?php echo $id; ?>"><?php echo $title; ?></div>		   
+        <div class="CCG-rowdiv">
+			 <div class="CCG-leftdiv">
                 <label for="<?php echo $id; ?>-including-gst">Price including GST $ :</label>
 			 </div>
-			 <div class="cch-rightdiv">
+			 <div class="CCG-rightdiv">
   	    	    <input id="<?php echo $id; ?>-including-gst" class="canada-including-gst" type="text" placeholder="including GST">
 			 </div>
         </div>
-        <div class="cch-rowdiv">
-			 <div class="cch-leftdiv">
+        <div class="CCG-rowdiv">
+			 <div class="CCG-leftdiv">
                 <label for="<?php echo $id; ?>-excluding-gst">Price excluding GST $ :</label>
 			 </div>
-			 <div class="cch-rightdiv">
+			 <div class="CCG-rightdiv">
   	    	    <input id="<?php echo $id; ?>-excluding-gst" class="canada-excluding-gst" type="text" placeholder="excluding GST">
 			 </div>
         </div>
-        <div class="cch-rowdiv">
-			 <div class="cch-leftdiv">
+        <div class="CCG-rowdiv">
+			 <div class="CCG-leftdiv">
                 <label for="<?php echo $id; ?>-gst">GST $ :</label>
 			 </div>
-			 <div class="cch-rightdiv">
+			 <div class="CCG-rightdiv">
   	    	    <input id="<?php echo $id; ?>-gst" class="canada-gst" type="text" placeholder="GST">
 			 </div>
         </div>
-        <div class="cch-rowdiv">
-			 <div class="cch-leftdiv"><label></label>
+        <div class="CCG-rowdiv">
+			 <div class="CCG-leftdiv"><label></label>
 			 </div>
-			 <div class="cch-rightdiv">
+			 <div class="CCG-rightdiv">
   	    	    <button id="<?php echo $id; ?>-clear" class="CCG-button canada-clear" type="button">Clear values</button>
 			 </div>
         </div>
@@ -43,8 +43,8 @@ function load_cc_canada_gst_calc($id, $title, $show_url = 0, $bg_color, $border_
 
  
         <?php if ($show_url) { ?>
-    		<div class="cch-rowdiv" >
-                <div class="CCH-WidgetSignature CCH-WidgetSignature-<?php echo $id; ?>">Provided by <a href="http://gstcalculator.ca" target="_blank">GSTcalculator.ca</a></div>
+    		<div class="CCG-rowdiv" >
+                <div class="CCG-WidgetSignature CCG-WidgetSignature-<?php echo $id; ?>">Provided by <a href="http://gstcalculator.ca" target="_blank">GSTcalculator.ca</a></div>
 		    </div>
         <?php } ?>
 		

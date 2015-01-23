@@ -4,7 +4,7 @@ Donate link: http://gstcalculator.ca
 Tags: Canada, Canada, GST calculator, calculator, sidebar, widget, plugin, financial, sale tax, GST, PST
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: trunk
+Stable tag: 0.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,4 +39,13 @@ Please [contact us](http://gstcalculator.ca/contact) if you have further questio
 
 == Changelog ==
 
+= 0.2.0 =
+Fixed css issues 
+
+= 0.1.0 =
 * Initial release
+
+== Upgrade Notice ==
+
+= 0.2.0 =
+Fixed major layout issue and plugin must be upgraded to make sure it show up correctly on any WordPress blog.

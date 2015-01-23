@@ -4,7 +4,7 @@
 Plugin Name: CC Canadian GST Calculator
 Plugin URI: http://gstcalculator.ca
 Description: Canadian GST(Goods and Services Tax) Calculator
-Version: 0.1.0
+Version: 0.2.0
 Author: Calculators Canada
 Author URI: http://gstcalculator.ca/
 License: GPL2
@@ -136,7 +136,7 @@ add_action('widgets_init', create_function('', 'return register_widget("cc_canad
 function cc_gst_scripts() {
 	wp_register_style( 'cc-canada-gst-calculator', plugins_url('/cc-canada-gst-calculator.css',__FILE__)); 
 	wp_enqueue_style( 'cc-canada-gst-calculator' );
-    wp_enqueue_script( 'cc-canada-gst-calculator', plugins_url('/cc-canada-gst-calculator.js',__FILE__), array('jquery'), '0.1.0', true );
+    wp_enqueue_script( 'cc-canada-gst-calculator', plugins_url('/cc-canada-gst-calculator.js',__FILE__), array('jquery'), '0.2.0', true );
 }
 
 add_action( 'wp_enqueue_scripts', 'cc_gst_scripts' );
